@@ -1,0 +1,53 @@
+aid: graphql-yoga
+name: GraphQL Yoga
+description: |
+  GraphQL Yoga is a fully-featured, cross-platform GraphQL server built on top of graphql-js and maintained by The Guild. It supports all JavaScript environments including Node.js, Deno, Bun, Cloudflare Workers, and edge runtimes out of the box, with zero-configuration for subscriptions via server-sent events, file uploads, persisted documents, and WebSocket transport.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://the-guild.dev/graphql/yoga-server
+baseURL: https://your-server.example.com/graphql
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Server
+  - JavaScript
+  - TypeScript
+  - The Guild
+  - Open Source
+  - Subscriptions
+  - Federation
+apis:
+  - aid: graphql-yoga:graphql-yoga-server
+    name: GraphQL Yoga Server
+    description: |
+      GraphQL Yoga is a self-hosted GraphQL server library — each deployment exposes its own GraphQL endpoint (default: /graphql). The library handles request parsing, execution, subscriptions, file uploads, CORS, and plugin lifecycle for any GraphQL schema you provide.
+    tags:
+      - GraphQL
+      - Server
+    humanURL: https://the-guild.dev/graphql/yoga-server/docs
+    baseURL: https://your-server.example.com/graphql
+    properties:
+      - url: https://the-guild.dev/graphql/yoga-server/docs
+        type: Documentation
+      - url: graphql/graphql-yoga-graphql.md
+        type: GraphQL
+common:
+  - url: https://the-guild.dev/graphql/yoga-server
+    type: Website
+  - url: https://the-guild.dev/graphql/yoga-server/docs
+    type: Documentation
+  - url: https://www.linkedin.com/company/the-guild-of-developers/
+    type: LinkedIn
+  - url: https://github.com/dotansimha/graphql-yoga
+    type: GitHubOrganization
+  - url: plans/graphql-yoga-plans.md
+    type: Plans
+  - url: rate-limits/graphql-yoga-rate-limits.md
+    type: RateLimits
+  - url: finops/graphql-yoga-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
