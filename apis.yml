@@ -34,6 +34,8 @@ apis:
       - url: graphql/graphql-yoga-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/graphql-yoga-domain-security.yml
   - url: https://the-guild.dev/graphql/yoga-server
     type: Website
   - url: https://the-guild.dev/graphql/yoga-server/docs
